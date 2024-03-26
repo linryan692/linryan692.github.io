@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+  --bs-primary: #032a7e;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -8127,9 +8127,11 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
+  background-color: black !important;
+  background-image: url(../assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
