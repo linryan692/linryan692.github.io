@@ -45,3 +45,20 @@ body {
     text-align:center; 
     line-
 }
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ga-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.ga-photo {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+  
