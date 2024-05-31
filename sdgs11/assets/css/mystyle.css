@@ -1,0 +1,20 @@
+.happy{
+    width: 1300px;
+    margin: 80px auto;
+    border:solid 1px gray;
+    overflow: hidden; /* 避免長方框下面顯示不正常 */
+  }
+.bdcard{
+    width: 600px;
+    float:left; /* 圖片在左邊 */
+    padding: 20px;
+  }
+.bdcard img{
+    display: block;
+    width:100%;
+  }
+.bdtext{
+    float: right;  /* 文字在右邊 */
+    width: 670px;
+    padding: 20px 20px 0px 0px;
+  }
