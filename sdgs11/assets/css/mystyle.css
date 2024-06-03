@@ -65,3 +65,95 @@ body {
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
+  .hero {
+      position: relative;
+      text-align: center;
+      color: blue;
+  }
+
+  .hero img {
+      width: 100%;
+      height: auto;
+      filter: brightness(50%);
+  }
+
+  .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: left;
+      max-width: 800px;
+  }
+
+  .bordered {
+      padding: 20px;
+      border: 2px solid #333;
+      background-color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 20px;
+  }
+
+  .content {
+      margin: 20px 0;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: flex-start;
+  }
+
+  .content img {
+      max-width: 200px;
+      margin-left: 20px;
+  }
+  .service {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.service img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.service {
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  background: url('assets/images/bullet.png') no-repeat left center;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.zongon {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;  
+}
+
+.zongon h1, h2 {
+  color: #444;
+  text-align: center;
+}
+
+.zongon section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
